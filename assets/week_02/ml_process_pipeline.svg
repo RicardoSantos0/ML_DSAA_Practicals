@@ -1,0 +1,53 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 980 190" font-family="Segoe UI, Arial, sans-serif">
+  <title>The machine-learning process: business need, import, explore, modify, model, optimize, assess, deploy</title>
+  <defs>
+    <marker id="arr" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+      <path d="M 0 0 L 10 5 L 0 10 z" fill="#555555"/>
+    </marker>
+  </defs>
+  <g font-size="14" text-anchor="middle">
+    <rect x="10"  y="60" width="100" height="56" rx="10" fill="#FDF3E7" stroke="#E8800A" stroke-width="2"/>
+    <text x="60" y="84" fill="#333">0 · Business</text>
+    <text x="60" y="102" fill="#333">need</text>
+
+    <rect x="130" y="60" width="100" height="56" rx="10" fill="#EAF2F6" stroke="#1779A8" stroke-width="2"/>
+    <text x="180" y="84" fill="#333">1-2 · Import</text>
+    <text x="180" y="102" fill="#333">data</text>
+
+    <rect x="250" y="60" width="100" height="56" rx="10" fill="#EAF2F6" stroke="#1779A8" stroke-width="2"/>
+    <text x="300" y="84" fill="#333">3 · Explore</text>
+    <text x="300" y="102" fill="#333">(Weeks 3-4)</text>
+
+    <rect x="370" y="60" width="100" height="56" rx="10" fill="#EAF2F6" stroke="#1779A8" stroke-width="2"/>
+    <text x="420" y="84" fill="#333">4 · Modify</text>
+    <text x="420" y="102" fill="#333">(Weeks 3-4)</text>
+
+    <rect x="490" y="60" width="100" height="56" rx="10" fill="#EAF2F6" stroke="#1779A8" stroke-width="2"/>
+    <text x="540" y="84" fill="#333">5 · Model</text>
+    <text x="540" y="102" fill="#333">(Weeks 6-15)</text>
+
+    <rect x="610" y="60" width="100" height="56" rx="10" fill="#EAF2F6" stroke="#1779A8" stroke-width="2"/>
+    <text x="660" y="84" fill="#333">6 · Optimize</text>
+    <text x="660" y="102" fill="#333">(Week 5)</text>
+
+    <rect x="730" y="60" width="100" height="56" rx="10" fill="#EAF2F6" stroke="#1779A8" stroke-width="2"/>
+    <text x="780" y="84" fill="#333">7 · Assess</text>
+    <text x="780" y="102" fill="#333">(Week 5)</text>
+
+    <rect x="850" y="60" width="100" height="56" rx="10" fill="#FDF3E7" stroke="#C96A00" stroke-width="2"/>
+    <text x="900" y="84" fill="#333">8 · Deploy</text>
+    <text x="900" y="102" fill="#333">(new data)</text>
+  </g>
+  <g stroke="#555555" stroke-width="2" fill="none">
+    <line x1="110" y1="88" x2="128" y2="88" marker-end="url(#arr)"/>
+    <line x1="230" y1="88" x2="248" y2="88" marker-end="url(#arr)"/>
+    <line x1="350" y1="88" x2="368" y2="88" marker-end="url(#arr)"/>
+    <line x1="470" y1="88" x2="488" y2="88" marker-end="url(#arr)"/>
+    <line x1="590" y1="88" x2="608" y2="88" marker-end="url(#arr)"/>
+    <line x1="710" y1="88" x2="728" y2="88" marker-end="url(#arr)"/>
+    <line x1="830" y1="88" x2="848" y2="88" marker-end="url(#arr)"/>
+    <path d="M 780 60 C 740 18, 580 18, 545 56" marker-end="url(#arr)"/>
+  </g>
+  <text x="660" y="30" font-size="12" fill="#555" text-anchor="middle">assessment feeds back into modelling</text>
+  <text x="490" y="165" font-size="12" fill="#555" text-anchor="middle">Iterative in practice — each stage becomes its own week later in the course</text>
+</svg>

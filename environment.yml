@@ -1,0 +1,16 @@
+name: dsaa-ml-practicals
+channels:
+  - conda-forge
+dependencies:
+  - python>=3.11,<3.13
+  - jupyter
+  - notebook
+  - ipykernel
+  - numpy
+  - pandas
+  - matplotlib
+  - seaborn
+  - scikit-learn
+  - openpyxl
+  - pytest
+  - pip
