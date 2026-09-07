@@ -47,7 +47,7 @@ Run the remaining commands from the folder containing `environment.yml`.
 
 ```text
 conda env create -f environment.yml
-conda activate dsaa-ml-practicals
+conda activate machine_learning
 ```
 
 If the environment already exists and `environment.yml` has changed, update it:
@@ -96,7 +96,7 @@ environment.yml Conda environment specification
 | `conda` is not recognised on Windows | Use Anaconda Prompt, or run `conda init powershell` once and reopen PowerShell. |
 | `EnvironmentFileNotFound` appears | Change into the repository folder that contains `environment.yml`. |
 | The environment already exists | Run `conda env update -f environment.yml --prune`. |
-| Imports fail in Jupyter | Stop Jupyter, activate `dsaa-ml-practicals`, and start Jupyter again. |
+| Imports fail in Jupyter | Stop Jupyter, activate `machine_learning`, and start Jupyter again. |
 | A notebook cannot find a data or image file | Start Jupyter from the repository root and keep the supplied folder structure unchanged. |
 
 If a notebook still fails after these checks, record the complete error message
