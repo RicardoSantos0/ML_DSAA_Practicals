@@ -11,6 +11,8 @@ corresponding practical class.
 |---:|---|---|---|
 | Week 1 | What is supervised machine learning? | [Open](notebooks/week_01/week_01_supervised_ml_and_environment.ipynb) | Not yet released |
 | Week 2 | The machine-learning process | [Open](notebooks/week_02/week_02_ml_pipeline.ipynb) | Not yet released |
+| Week 3 | Deepening exploration: quality, missing values and outliers | [Open](notebooks/week_03/week_03_deepen_exploration.ipynb) | Not yet released |
+| Week 3 | Deepening exploration: a price, not a class | [Open](notebooks/week_03/week_03_deepen_exploration_regression.ipynb) | Not yet released |
 
 Solutions are separate files, so an update will not replace the notebook in
 which you have been working.
