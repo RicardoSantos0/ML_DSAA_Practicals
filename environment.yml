@@ -5,6 +5,7 @@ dependencies:
   - python=3.13.5
   - pip=25.1
   - pip:
+      - category-encoders==2.8.1
       - ipykernel==6.30.1
       - joblib==1.5.3
       - jupyter==1.1.1
