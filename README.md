@@ -18,8 +18,8 @@ corresponding practical class.
 | Week 5 | Performance measures | [Open](notebooks/week_05/week_05_performance_measures.ipynb) | [Open](solutions/week_05/week_05_performance_measures_solution.ipynb) |
 | Week 5 | Model selection | [Open](notebooks/week_05/week_05_model_selection.ipynb) | [Open](solutions/week_05/week_05_model_selection_solution.ipynb) |
 | Week 6 | Linear and logistic models | [Open](notebooks/week_06/week_06_linear_logistic.ipynb) | [Open](solutions/week_06/week_06_linear_logistic_solution.ipynb) |
-| Week 7 | Probability and Naive Bayes | [Open](notebooks/week_07/week_07_naive_bayes.ipynb) | Not yet released |
-| Week 7 | Bayesian regression | [Open](notebooks/week_07/week_07_bayesian_regression.ipynb) | Not yet released |
+| Week 7 | Probability and Naive Bayes | [Open](notebooks/week_07/week_07_naive_bayes.ipynb) | [Open](solutions/week_07/week_07_naive_bayes_solution.ipynb) |
+| Week 7 | Bayesian regression | [Open](notebooks/week_07/week_07_bayesian_regression.ipynb) | [Open](solutions/week_07/week_07_bayesian_regression_solution.ipynb) |
 | Week 8 | Similarity and KNN | [Open](notebooks/week_08/week_08_similarity_knn.ipynb) | Not yet released |
 | Week 8 | KNN for a numeric target | [Open](notebooks/week_08/week_08_knn_regression.ipynb) | Not yet released |
 | Week 9 | Decision trees | [Open](notebooks/week_09/week_09_decision_trees.ipynb) | Not yet released |
@@ -27,6 +27,13 @@ corresponding practical class.
 
 Solutions are separate files, so an update will not replace the notebook in
 which you have been working.
+
+The `results/` folder holds the scores and the fitted models of every released
+week. Each notebook, whether you open it from `notebooks/` or from `solutions/`,
+reads the earlier weeks from that folder and writes its own week there, so a
+later week still works when a class ended before you reached the end of a
+notebook. Running a notebook to its end in the course environment writes the
+same files again.
 
 ## Set up the course environment
 

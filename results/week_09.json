@@ -1,12 +1,12 @@
 {
- "week": 6,
+ "week": 9,
  "classification": {
-  "model": "logistic regression (L1, C=100, no intercept)",
+  "model": "DecisionTreeClassifier(ccp_alpha=0.001, class_weight=None, criterion='gini', max_depth=None, max_features=None, min_samples_leaf=20, min_samples_split=50, splitter='best')",
   "metric": "F1",
-  "cv": 0.8486,
-  "test": 0.8512,
-  "baseline_cv": 0.8494,
-  "baseline_test": 0.8474,
+  "cv": 0.8475,
+  "test": 0.8402,
+  "baseline_cv": 0.7996,
+  "baseline_test": 0.8041,
   "context": {
    "data": "2566e2a183ac241ab9c54144f092f8dd8129a1fa46e2178f47466fec3175c5b4",
    "recipe": "056ae9f5617e2c99b15b5caed2e304c79dcd47861daa4ee12da8bd7c7c8c73d2",
@@ -14,12 +14,12 @@
   }
  },
  "regression": {
-  "model": "Lasso(alpha=0.0001), log(price)",
+  "model": "DecisionTreeRegressor(ccp_alpha=0.0001, criterion='absolute_error', max_depth=None, max_features=None, min_samples_leaf=5, min_samples_split=2, splitter='best'), log(price)",
   "metric": "MAE (EUR)",
-  "cv": 2546.5085,
-  "test": 2652.8899,
-  "baseline_cv": 3019.3312,
-  "baseline_test": 3073.4952,
+  "cv": 2753.2245,
+  "test": 2661.942,
+  "baseline_cv": 3053.5242,
+  "baseline_test": 2831.2075,
   "context": {
    "data": "28731488af14bf0973a4fe17438568aebc3111805c4cfd71df160ec71e0f0dec",
    "recipe": "258ad7bf7472fa363766c370ac7d70b0923fc2fbff95051e47ab7a44b214aba6",
