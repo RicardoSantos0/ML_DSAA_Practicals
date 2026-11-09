@@ -20,8 +20,8 @@ corresponding practical class.
 | Week 6 | Linear and logistic models | [Open](notebooks/week_06/week_06_linear_logistic.ipynb) | [Open](solutions/week_06/week_06_linear_logistic_solution.ipynb) |
 | Week 7 | Probability and Naive Bayes | [Open](notebooks/week_07/week_07_naive_bayes.ipynb) | [Open](solutions/week_07/week_07_naive_bayes_solution.ipynb) |
 | Week 7 | Bayesian regression | [Open](notebooks/week_07/week_07_bayesian_regression.ipynb) | [Open](solutions/week_07/week_07_bayesian_regression_solution.ipynb) |
-| Week 8 | Similarity and KNN | [Open](notebooks/week_08/week_08_similarity_knn.ipynb) | Not yet released |
-| Week 8 | KNN for a numeric target | [Open](notebooks/week_08/week_08_knn_regression.ipynb) | Not yet released |
+| Week 8 | Similarity and KNN | [Open](notebooks/week_08/week_08_similarity_knn.ipynb) | [Open](solutions/week_08/week_08_similarity_knn_solution.ipynb) |
+| Week 8 | KNN for a numeric target | [Open](notebooks/week_08/week_08_knn_regression.ipynb) | [Open](solutions/week_08/week_08_knn_regression_solution.ipynb) |
 | Week 9 | Decision trees | [Open](notebooks/week_09/week_09_decision_trees.ipynb) | Not yet released |
 | Week 9 | Decision trees for a numeric target | [Open](notebooks/week_09/week_09_regression_trees.ipynb) | Not yet released |
 | Week 10 | Bagging and random forests | [Open](notebooks/week_10/week_10_ensembles_bagging.ipynb) | Not yet released |
