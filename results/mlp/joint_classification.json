@@ -1,0 +1,17 @@
+{
+ "model": "MLP joint of the sweeps: (8,) tanh, max_iter=200, batch_size=512, scaler kept",
+ "metric": "F1",
+ "cv": 0.8523216908043955,
+ "test": 0.8509378084896347,
+ "settings": {
+  "random_state": 33,
+  "activation": "tanh",
+  "hidden_layer_sizes": [
+   8
+  ],
+  "max_iter": 200,
+  "batch_size": 512
+ },
+ "scaler": "kept",
+ "fitted_model": "../week_12_classification_model.joblib"
+}

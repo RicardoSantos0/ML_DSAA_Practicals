@@ -1,0 +1,17 @@
+{
+ "model": "MLP joint of the sweeps: (100,) relu, batch_size=200, inherited X, standardised y",
+ "metric": "MAE (EUR)",
+ "cv": 2565.895264572583,
+ "test": 2582.206864908732,
+ "settings": {
+  "activation": "relu",
+  "hidden_layer_sizes": [
+   100
+  ],
+  "max_iter": 200,
+  "batch_size": 200
+ },
+ "scaling": "inherited X, standardised y",
+ "target": "standardised",
+ "fitted_model": "../week_12_regression_model.joblib"
+}

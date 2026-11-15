@@ -30,6 +30,8 @@ corresponding practical class.
 | Week 11 | Boosting for regression | [Open](notebooks/week_11/week_11_ensembles_boosting_regression.ipynb) | [Open](solutions/week_11/week_11_ensembles_boosting_regression_solution.ipynb) |
 | Week 11 | Combining models for classification | [Open](notebooks/week_11/week_11_combining_models.ipynb) | [Open](solutions/week_11/week_11_combining_models_solution.ipynb) |
 | Week 11 | Combining models for regression | [Open](notebooks/week_11/week_11_combining_models_regression.ipynb) | [Open](solutions/week_11/week_11_combining_models_regression_solution.ipynb) |
+| Week 12 | Neural networks for classification | [Open](notebooks/week_12/week_12_neural_networks.ipynb) | Not yet released |
+| Week 12 | Neural networks for regression | [Open](notebooks/week_12/week_12_mlp_regression.ipynb) | Not yet released |
 
 Solutions are separate files, so an update will not replace the notebook in
 which you have been working.
