@@ -22,8 +22,8 @@ corresponding practical class.
 | Week 7 | Bayesian regression | [Open](notebooks/week_07/week_07_bayesian_regression.ipynb) | [Open](solutions/week_07/week_07_bayesian_regression_solution.ipynb) |
 | Week 8 | Similarity and KNN | [Open](notebooks/week_08/week_08_similarity_knn.ipynb) | [Open](solutions/week_08/week_08_similarity_knn_solution.ipynb) |
 | Week 8 | KNN for a numeric target | [Open](notebooks/week_08/week_08_knn_regression.ipynb) | [Open](solutions/week_08/week_08_knn_regression_solution.ipynb) |
-| Week 9 | Decision trees | [Open](notebooks/week_09/week_09_decision_trees.ipynb) | Not yet released |
-| Week 9 | Decision trees for a numeric target | [Open](notebooks/week_09/week_09_regression_trees.ipynb) | Not yet released |
+| Week 9 | Decision trees | [Open](notebooks/week_09/week_09_decision_trees.ipynb) | [Open](solutions/week_09/week_09_decision_trees_solution.ipynb) |
+| Week 9 | Decision trees for a numeric target | [Open](notebooks/week_09/week_09_regression_trees.ipynb) | [Open](solutions/week_09/week_09_regression_trees_solution.ipynb) |
 | Week 10 | Bagging and random forests | [Open](notebooks/week_10/week_10_ensembles_bagging.ipynb) | Not yet released |
 | Week 10 | Bagging and random forests for a numeric target | [Open](notebooks/week_10/week_10_ensembles_bagging_regression.ipynb) | Not yet released |
 | Week 11 | Boosting for classification | [Open](notebooks/week_11/week_11_ensembles_boosting.ipynb) | [Open](solutions/week_11/week_11_ensembles_boosting_solution.ipynb) |
