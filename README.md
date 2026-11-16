@@ -1,13 +1,13 @@
 # DSAA Machine Learning Practicals
 
 This repository contains the notebooks and supporting files used in the DSAA
-Machine Learning practical classes. Unsolved notebooks are available under
+Machine Learning practical classes. Class notebooks are available under
 `notebooks/`. A solved notebook is added under `solutions/` after the
 corresponding practical class.
 
 ## Available materials
 
-| Week | Topic | Unsolved notebook | Solution |
+| Week | Topic | Notebook | Solution |
 |---:|---|---|---|
 | Week 1 | What is supervised machine learning? | [Open](notebooks/week_01/week_01_supervised_ml_and_environment.ipynb) | [Open](solutions/week_01/week_01_supervised_ml_and_environment_solution.ipynb) |
 | Week 2 | The machine-learning process | [Open](notebooks/week_02/week_02_ml_pipeline.ipynb) | [Open](solutions/week_02/week_02_ml_pipeline_solution.ipynb) |
@@ -32,6 +32,11 @@ corresponding practical class.
 | Week 11 | Combining models for regression | [Open](notebooks/week_11/week_11_combining_models_regression.ipynb) | [Open](solutions/week_11/week_11_combining_models_regression_solution.ipynb) |
 | Week 12 | Neural networks for classification | [Open](notebooks/week_12/week_12_neural_networks.ipynb) | Not yet released |
 | Week 12 | Neural networks for regression | [Open](notebooks/week_12/week_12_mlp_regression.ipynb) | Not yet released |
+| Week 13 | Neural-network optimisation and search | [Open](notebooks/week_13/week_13_neural_tuning.ipynb) | [Open](solutions/week_13/week_13_neural_tuning_solution.ipynb) |
+| Week 13 | Neural-network optimisation and search for regression | [Open](notebooks/week_13/week_13_mlp_tuning_regression.ipynb) | [Open](solutions/week_13/week_13_mlp_tuning_regression_solution.ipynb) |
+
+The Week 13 notebooks contain complete code and worked examples. Run all cells
+in order.
 
 Solutions are separate files, so an update will not replace the notebook in
 which you have been working.
@@ -117,7 +122,7 @@ Students using ZIP downloads should download and extract a fresh copy.
 ## Repository structure
 
 ```text
-notebooks/      Unsolved practical notebooks
+notebooks/      Practical notebooks
 solutions/      Solutions released after each practical
 data/           Data opened by the notebooks
 logs/           Cleaning logs that later notebooks read

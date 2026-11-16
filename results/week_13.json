@@ -1,0 +1,29 @@
+{
+ "week": 13,
+ "classification": {
+  "model": "MLP search (60 fixed candidates, nested)",
+  "metric": "F1",
+  "cv": 0.8515,
+  "test": 0.8549,
+  "baseline_cv": 0.8523,
+  "baseline_test": 0.8509,
+  "context": {
+   "data": "2566e2a183ac241ab9c54144f092f8dd8129a1fa46e2178f47466fec3175c5b4",
+   "recipe": "056ae9f5617e2c99b15b5caed2e304c79dcd47861daa4ee12da8bd7c7c8c73d2",
+   "split": "bc09baa7c8d0eebfcdbb6a42a22c2d6c6c3f868ca7869910bd1102c7b87c1507"
+  }
+ },
+ "regression": {
+  "model": "TransformedTargetRegressor(regressor=MLPRegressor(activation='relu', alpha=1.0, batch_size=200, beta_1=0.9, beta_2=0.999, early_stopping=False, epsilon=1e-08, hidden_layer_sizes=(64, 64, 64), learning_rate='constant', learning_rate_init=0.003, loss='squared_error', max_fun=15000, max_iter=3000, momentum=0.9, n_iter_no_change=10, nesterovs_momentum=True, power_t=0.5, random_state=33, shuffle=True, solver='sgd', tol=0.0001, validation_fraction=0.1, verbose=False, warm_start=False), transformer=StandardScaler())",
+  "metric": "MAE (EUR)",
+  "cv": 2548.0938,
+  "test": 2550.6608,
+  "baseline_cv": 2565.8953,
+  "baseline_test": 2582.2069,
+  "context": {
+   "data": "28731488af14bf0973a4fe17438568aebc3111805c4cfd71df160ec71e0f0dec",
+   "recipe": "258ad7bf7472fa363766c370ac7d70b0923fc2fbff95051e47ab7a44b214aba6",
+   "split": "cb4736a8f91abc4640300b38cb152b2078256206503cb8432c144322bc6a78fe"
+  }
+ }
+}
