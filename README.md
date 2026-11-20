@@ -1,56 +1,27 @@
 # DSAA Machine Learning Practicals
 
-This repository contains the notebooks and supporting files used in the DSAA
-Machine Learning practical classes. Class notebooks are available under
-`notebooks/`. A solved notebook is added under `solutions/` after the
-corresponding practical class.
+This repository provides the notebooks and supporting files for the DSAA
+Machine Learning practical classes.
 
-## Available materials
+## Repository materials
 
-| Week | Topic | Notebook | Solution |
-|---:|---|---|---|
-| Week 1 | What is supervised machine learning? | [Open](notebooks/week_01/week_01_supervised_ml_and_environment.ipynb) | [Open](solutions/week_01/week_01_supervised_ml_and_environment_solution.ipynb) |
-| Week 2 | The machine-learning process | [Open](notebooks/week_02/week_02_ml_pipeline.ipynb) | [Open](solutions/week_02/week_02_ml_pipeline_solution.ipynb) |
-| Week 3 | Deepening exploration: quality, missing values and outliers | [Open](notebooks/week_03/week_03_deepen_exploration.ipynb) | [Open](solutions/week_03/week_03_deepen_exploration_solution.ipynb) |
-| Week 3 | Deepening exploration: a price, not a class | [Open](notebooks/week_03/week_03_deepen_exploration_regression.ipynb) | [Open](solutions/week_03/week_03_deepen_exploration_regression_solution.ipynb) |
-| Week 4 | Feature work and dimensionality reduction before selection | [Open](notebooks/week_04/week_04_feature_work_classification.ipynb) | [Open](solutions/week_04/week_04_feature_work_classification_solution.ipynb) |
-| Week 4 | Feature work on a regression target | [Open](notebooks/week_04/week_04_feature_work_regression.ipynb) | [Open](solutions/week_04/week_04_feature_work_regression_solution.ipynb) |
-| Week 5 | Performance measures | [Open](notebooks/week_05/week_05_performance_measures.ipynb) | [Open](solutions/week_05/week_05_performance_measures_solution.ipynb) |
-| Week 5 | Model selection | [Open](notebooks/week_05/week_05_model_selection.ipynb) | [Open](solutions/week_05/week_05_model_selection_solution.ipynb) |
-| Week 6 | Linear and logistic models | [Open](notebooks/week_06/week_06_linear_logistic.ipynb) | [Open](solutions/week_06/week_06_linear_logistic_solution.ipynb) |
-| Week 7 | Probability and Naive Bayes | [Open](notebooks/week_07/week_07_naive_bayes.ipynb) | [Open](solutions/week_07/week_07_naive_bayes_solution.ipynb) |
-| Week 7 | Bayesian regression | [Open](notebooks/week_07/week_07_bayesian_regression.ipynb) | [Open](solutions/week_07/week_07_bayesian_regression_solution.ipynb) |
-| Week 8 | Similarity and KNN | [Open](notebooks/week_08/week_08_similarity_knn.ipynb) | [Open](solutions/week_08/week_08_similarity_knn_solution.ipynb) |
-| Week 8 | KNN for a numeric target | [Open](notebooks/week_08/week_08_knn_regression.ipynb) | [Open](solutions/week_08/week_08_knn_regression_solution.ipynb) |
-| Week 9 | Decision trees | [Open](notebooks/week_09/week_09_decision_trees.ipynb) | [Open](solutions/week_09/week_09_decision_trees_solution.ipynb) |
-| Week 9 | Decision trees for a numeric target | [Open](notebooks/week_09/week_09_regression_trees.ipynb) | [Open](solutions/week_09/week_09_regression_trees_solution.ipynb) |
-| Week 10 | Bagging and random forests | [Open](notebooks/week_10/week_10_ensembles_bagging.ipynb) | Not yet released |
-| Week 10 | Bagging and random forests for a numeric target | [Open](notebooks/week_10/week_10_ensembles_bagging_regression.ipynb) | Not yet released |
-| Week 11 | Boosting for classification | [Open](notebooks/week_11/week_11_ensembles_boosting.ipynb) | [Open](solutions/week_11/week_11_ensembles_boosting_solution.ipynb) |
-| Week 11 | Boosting for regression | [Open](notebooks/week_11/week_11_ensembles_boosting_regression.ipynb) | [Open](solutions/week_11/week_11_ensembles_boosting_regression_solution.ipynb) |
-| Week 11 | Combining models for classification | [Open](notebooks/week_11/week_11_combining_models.ipynb) | [Open](solutions/week_11/week_11_combining_models_solution.ipynb) |
-| Week 11 | Combining models for regression | [Open](notebooks/week_11/week_11_combining_models_regression.ipynb) | [Open](solutions/week_11/week_11_combining_models_regression_solution.ipynb) |
-| Week 12 | Neural networks for classification | [Open](notebooks/week_12/week_12_neural_networks.ipynb) | Not yet released |
-| Week 12 | Neural networks for regression | [Open](notebooks/week_12/week_12_mlp_regression.ipynb) | Not yet released |
-| Week 13 | Neural-network optimisation and search | [Open](notebooks/week_13/week_13_neural_tuning.ipynb) | [Open](solutions/week_13/week_13_neural_tuning_solution.ipynb) |
-| Week 13 | Neural-network optimisation and search for regression | [Open](notebooks/week_13/week_13_mlp_tuning_regression.ipynb) | [Open](solutions/week_13/week_13_mlp_tuning_regression_solution.ipynb) |
+| Folder | Purpose |
+|---|---|
+| [notebooks/](notebooks/) | Practical notebooks organised by week |
+| [solutions/](solutions/) | Worked solutions published as separate notebooks |
+| [data/](data/) | Datasets opened by the notebooks |
+| [logs/](logs/) | Cleaning logs used in later practicals |
+| [assets/](assets/) | Diagrams used by the notebooks |
+| [results/](results/) | Shared scores, fitted models and saved selections |
+| [project/](project/) | Course project materials |
 
-The Week 13 notebooks contain complete code and worked examples. Run all cells
-in order.
+Keep your own work in a separate copy of a notebook so repository updates can
+bring in new materials without overwriting your answers.
 
-Solutions are separate files, so an update will not replace the notebook in
-which you have been working.
-
-Week 11 separates boosting from combining models for classification and regression.
-Boosting writes the selection used by the matching combining notebook. Saved
-selections are supplied in the shared `results/boosting/` folder.
-
-The `results/` folder holds the scores and the fitted models of every released
-week. Each notebook, whether you open it from `notebooks/` or from `solutions/`,
-reads the earlier weeks from that folder and writes its own week there, so a
-later week still works when a class ended before you reached the end of a
-notebook. Running a notebook to its end in the course environment writes the
-same files again.
+The notebooks share the supplied data, cleaning logs, diagrams and saved model
+results. Keep the complete repository together: a later practical can read
+results from an earlier one even if you have not run that notebook to its end.
+Running a notebook can update files in `data/`, `logs/` and `results/`.
 
 ## Set up the course environment
 
@@ -103,33 +74,18 @@ Open the notebook for the current week under `notebooks/`. Keep the repository
 folder structure unchanged because the notebooks load files from `data/`,
 `logs/` and `assets/` by relative path.
 
-Week 3 cleans the raw datasets, writing the cleaned files to `data/interim/` and
-its cleaning logs to `logs/`, and later weeks read both. Copies of those files
-are supplied, so each week runs on its own; running Week 3 replaces them.
-
 ## Get new notebooks and solutions
 
 If you cloned the repository, close any running notebooks and pull the latest
-version:
+version. Save your work outside the tracked notebook files first:
 
 ```text
 git pull
 ```
 
 GitHub Desktop users can select **Fetch origin** and then **Pull origin**.
-Students using ZIP downloads should download and extract a fresh copy.
-
-## Repository structure
-
-```text
-notebooks/      Practical notebooks
-solutions/      Solutions released after each practical
-data/           Data opened by the notebooks
-logs/           Cleaning logs that later notebooks read
-assets/         Diagrams used by the notebooks
-project/        Course project materials
-environment.yml Conda environment specification
-```
+Students using ZIP downloads should download and extract a fresh copy, then
+copy their own working notebooks into it.
 
 ## Common setup problems
 
