@@ -1,0 +1,29 @@
+{
+ "week": 14,
+ "classification": {
+  "model": "LinearSVC(C=np.float64(6.163687125346497), dual=True, fit_intercept=False, intercept_scaling=np.float64(0.34201647269568225), loss='hinge', max_iter=10000, random_state=33, tol=np.float64(1.9128750391520304e-05))",
+  "metric": "F1",
+  "cv": 0.851,
+  "test": 0.8524,
+  "baseline_cv": 0.8587,
+  "baseline_test": 0.8649,
+  "context": {
+   "data": "2566e2a183ac241ab9c54144f092f8dd8129a1fa46e2178f47466fec3175c5b4",
+   "recipe": "056ae9f5617e2c99b15b5caed2e304c79dcd47861daa4ee12da8bd7c7c8c73d2",
+   "split": "bc09baa7c8d0eebfcdbb6a42a22c2d6c6c3f868ca7869910bd1102c7b87c1507"
+  }
+ },
+ "regression": {
+  "model": "TransformedTargetRegressor(func=<ufunc 'log'>, inverse_func=<ufunc 'exp'>, regressor=SVR(C=np.float64(33.21621887447505), cache_size=256, epsilon=np.float64(0.001126993140252987), gamma=np.float64(0.013755972969596283), max_iter=10000, tol=np.float64(0.00011305198309925277)))",
+  "metric": "MAE (EUR)",
+  "cv": 2476.8938,
+  "test": 2615.2856,
+  "baseline_cv": 6862.806,
+  "baseline_test": 6525.9198,
+  "context": {
+   "data": "28731488af14bf0973a4fe17438568aebc3111805c4cfd71df160ec71e0f0dec",
+   "recipe": "258ad7bf7472fa363766c370ac7d70b0923fc2fbff95051e47ab7a44b214aba6",
+   "split": "cb4736a8f91abc4640300b38cb152b2078256206503cb8432c144322bc6a78fe"
+  }
+ }
+}
